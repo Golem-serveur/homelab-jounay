@@ -1,18 +1,15 @@
 # Homelab Journey
 
-Bienvenue sur mon projet personnel.
+## À propos
 
-Je documente ici mon apprentissage :
+Je documente mon apprentissage dans :
 
 - Linux
-- Debian
-- Git et GitHub
-- Docker
-- Proxmox
-- OPNsense
+- Administration système
 - Réseaux
 - Cybersécurité
-- Administration système
+- Virtualisation
+- Homelab
 
 ## Configuration actuelle
 
@@ -22,48 +19,49 @@ Je documente ici mon apprentissage :
 - SSH
 - Serveur Minecraft
 
-## Objectifs 2026
+## Roadmap
 
-- [x] Installer Debian
-- [x] Configurer SSH
-- [x] Installer Java
-- [x] Créer un serveur Minecraft
-- [ ] Installer Docker
-- [ ] Déployer Jellyfin
-- [ ] Déployer Nextcloud
-- [ ] Installer Pi-hole
-- [ ] Passer sur Proxmox
-- [ ] Acheter un switch manageable
-- [ ] Installer OPNsense
-- [ ] Configurer des VLAN
-- [ ] Construire un lab de cybersécurité
+### Linux
 
-## Architecture actuelle
+- [x] Debian
+- [x] SSH
+- [x] Locales
+- [ ] Docker
 
-Internet
-|
-Box
-|
-IP
-|
-Debian
-|
-SSH
-|
-Minecraft
+### Sécurité
 
-## Architecture future
+- [x] UFW
+- [x] Fail2ban
+- [x] Lynis
+- [x] Nmap
+- [ ] Wireshark
 
-Internet
-|
-OPNsense
-|
-Managed Switch
-|
-+-------------------------+
-|                         |
-Proxmox                 WiFi
-|
-+------+--------+--------+
-|      |        |        |
-MC  Nextcloud Kali  Pi-hole
+### Services
+
+- [x] Minecraft
+- [ ] Jellyfin
+- [ ] Nextcloud
+- [ ] Pi-hole
+
+### Virtualisation
+
+- [ ] Proxmox
+- [ ] Kali
+- [ ] Windows VM
+
+### Réseau
+
+- [ ] OPNsense
+- [ ] Switch manageable
+- [ ] VLAN
+
+## Objectif final
+
+Créer un homelab complet avec :
+
+- OPNsense
+- Proxmox
+- Docker
+- Plusieurs VM
+- VLAN
+- Laboratoire de cybersécurité
