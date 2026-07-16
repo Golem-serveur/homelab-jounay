@@ -21,7 +21,6 @@ Je documente ici mon apprentissage :
 - Debian
 - SSH
 - Serveur Minecraft
-- IP locale : 192.168.1.14
 
 ## Objectifs 2026
 
@@ -45,7 +44,7 @@ Internet
 |
 Box
 |
-192.168.1.14
+IP
 |
 Debian
 |
