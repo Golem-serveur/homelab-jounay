@@ -1,67 +1,137 @@
 # Homelab Journey
 
-## À propos
+Bienvenue sur mon Homelab Journey !
 
-Je documente mon apprentissage dans :
+Ce dépôt documente mon apprentissage dans les domaines suivants :
 
 - Linux
 - Administration système
 - Réseaux
 - Cybersécurité
-- Virtualisation
-- Homelab
+- Monitoring
+- Services auto-hébergés
 
-## Configuration actuelle
+L'objectif est de documenter mon évolution, de mes premiers pas sur Debian jusqu'à la construction d'un Homelab complet.
 
-- RTX 2060 Super
-- 32 Go DDR4
-- Debian
-- SSH
-- Serveur Minecraft
+---
 
-## Roadmap
+## Current Setup
+
+| Component | Status |
+|----------|--------|
+| Debian | ✅ |
+| SSH | ✅ |
+| Minecraft Server | ✅ |
+| Docker | ✅ |
+| Portainer | ✅ |
+| Cockpit | ✅ |
+| Pi-hole | ✅ |
+| Grafana | ✅ |
+| Prometheus | ✅ |
+| Node Exporter | ✅ |
+
+---
+
+## Hardware
+
+| Component | Value |
+|----------|--------|
+| GPU | RTX 2060 Super |
+| RAM | 32 GB DDR4 |
+| OS | Debian |
+| Storage | To be completed |
+
+---
+
+## Repository Structure
+
+```text
+docs/
+├── linux/
+├── security/
+├── networking/
+└── services/
+
+architecture/
+scripts/
+cybersecurity/
+```
+
+---
+
+## Learning Progress
 
 ### Linux
 
-- [x] Debian
+- [x] Debian Installation
 - [x] SSH
 - [x] Locales
-- [ ] Docker
+- [x] APT
+- [x] Users & Groups
+- [x] Permissions
 
-### Sécurité
+### Security
 
 - [x] UFW
 - [x] Fail2ban
 - [x] Lynis
 - [x] Nmap
-- [ ] Wireshark
 
 ### Services
 
-- [x] Minecraft
+- [x] Java
+- [x] Minecraft Server
+- [x] Docker
+- [x] Portainer
+- [x] Cockpit
+- [x] Pi-hole
+- [x] Grafana
+- [x] Prometheus
+- [x] Node Exporter
+
+### Networking
+
+- [x] Network Basics
+- [x] DNS
+- [x] DHCP
+
+### Future Goals
+
 - [ ] Jellyfin
 - [ ] Nextcloud
-- [ ] Pi-hole
-
-### Virtualisation
-
 - [ ] Proxmox
-- [ ] Kali
-- [ ] Windows VM
-
-### Réseau
-
 - [ ] OPNsense
-- [ ] Switch manageable
 - [ ] VLAN
+- [ ] Managed Switch
+- [ ] Kali VM
+- [ ] Windows VM
+- [ ] Wireshark
+- [ ] Burp Suite
 
-## Objectif final
+---
 
-Créer un homelab complet avec :
+## Future Architecture
 
-- OPNsense
-- Proxmox
-- Docker
-- Plusieurs VM
-- VLAN
-- Laboratoire de cybersécurité
+```text
+Internet
+   |
+OPNsense
+   |
+Managed Switch
+   |
+Proxmox
+   |
++------+--------+--------+
+|      |        |        |
+Kali  Debian   Windows  Docker
+```
+
+---
+
+## Philosophy
+
+> Document what you learn.
+
+This repository is a personal learning journal and a long-term documentation project for my Homelab.
+
+---
